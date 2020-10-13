@@ -7,7 +7,6 @@ module.exports = (app) => {
     });
 
     app.get("/student/bycode/:code", (req, res, next) => {
-        console.log("getiing student by code");
         controller.getByCode(req, res, next);
     });
     

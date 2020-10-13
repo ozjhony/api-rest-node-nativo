@@ -6,7 +6,7 @@ module.exports = (app) => {
     });
 
     app.get("/course/bycode/:code", (req, res, next) => {
-        controller.getByDocument(req, res, next);
+        controller.getByCode(req, res, next);
     });
     
     app.post("/course", (req, res, next) => {

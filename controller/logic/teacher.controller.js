@@ -1,9 +1,6 @@
-/** Dto */
 const teacherDto = require("../../model/dto/teacher.dto");
 const userDto = require("../../model/dto/user.dto");
 const config = require("config");
-
-/** Helper */
 const helper = require("../helpers/general.helper");
 const notHelper = require("../helpers/notification.helper");
 
